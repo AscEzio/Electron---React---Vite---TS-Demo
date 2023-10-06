@@ -6,7 +6,8 @@
   "scripts": {
     "start": "tsc --noEmit && vite build && tsc -p tsconfig.electron.json && electron ./index.js && del index.js",
     "build": "tsc --noEmit && vite build && tsc -p tsconfig.electron.json",
-    "dev": "vite --host"
+    "dev": "vite --host",
+    "eslint":"eslint --fix ."
   },
   "type": "commonjs",
   "author": "Asc",
