@@ -1,9 +1,9 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 
 const App: FC = () => {
-    return (
+  return (
         <div>app1</div>
-    )
+  )
 }
 
 export default App
